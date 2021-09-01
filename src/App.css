@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.App {
+  width: 400px;
+  margin: 0 auto;
+  font-family: "Righteous", cursive;
+  text-align: center; 
+  
+}
+
+.borderr{
+  border: 15px groove;
+  border-color: #29c98ba2;
+  background-color: #444941;
+  
+  
+}
+
+.add_form input,
+.add_form button,
+.cleaner {
+  padding: 5px;  
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  
+}
+
+h1{
+  color: #7FC8A9;
+  text-shadow: 1px 4px 4px #261C2C;
+}
+
+.add_form input {
+  background: #444941;
+  text-align: center;  
+  caret-color: #7FC8A9;
+  width: 80%;
+  margin-left: 35px;
+  font-size: 18px;
+  
+}
+
+
+
+.add_form input:focus{
+  background-color: #444941;
+
+  
+}
+
+.add_form button,
+.cleaner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #7FC8A9;
+  color: #261C2C;
+  box-shadow: 1px 4px 4px #261C2C;
+}
+
+.list {
+  padding: 20px 0;
+  color: #7FC8A9;  
+}
+
+.list>div:hover{
+  font-size: 25px;
+  transition: all 1s ease;
+}
+
+.list > div {
+  padding: 8px 0;
+  cursor: pointer;
+  font-size: 20px;
+  border-bottom: 2px solid #7FC8A9;
+  
+}
+
+.list > div:last-child {
+  border-bottom: 0;
+  
+}
+
+.completed {
+  
+  color: #261C2C;
+}
